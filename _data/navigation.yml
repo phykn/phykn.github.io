@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Category"
+    url: "/categories/"
+
+sidebar:
+  - title: Data Science
+    children:
+      - title: "Education"
+        url: /categories/#Education
+  - title: etc
+    children:
+      - title: "Code"
+        url: /categories/#Code
