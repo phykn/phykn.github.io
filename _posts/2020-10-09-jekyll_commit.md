@@ -15,7 +15,7 @@ Git push
 
 ```powershell
 git add .
-git commit
+git commit -m "some text"
 git push
 ```
 
