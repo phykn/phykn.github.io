@@ -6,7 +6,7 @@ search: true
 ---
 ## 인공신경
 인공신경은 외부 입력을 받아 신호를 만들어 내는 단위입니다.  가중치 (Weight), 편향 (Bias), 활성 함수 (Activation function) 로 구성됩니다.
-<center><img src="/assets/images/artificial_neuron.png" width="40%"></center>
+<center><img src="/assets/images/education/artificial_neuron.png" width="40%"></center>
 <center style="font-size:15px">The Artificial Neuron</center>
 
 ### 가중치 (Weight)
