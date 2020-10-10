@@ -1,6 +1,6 @@
 ---
 title:  "딥러닝기초#2 학습과 경사하강법"
-date: 2020-10-09
+date: 2020-10-09 01:00
 categories: [Education]
 search: true
 use_math: true

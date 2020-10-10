@@ -1,6 +1,6 @@
 ---
 title:  "딥러닝기초#1 인공신경망"
-date: 2020-10-09
+date: 2020-10-09 00:00
 categories: [Education]
 search: true
 ---
