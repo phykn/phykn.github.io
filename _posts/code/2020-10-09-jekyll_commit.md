@@ -28,6 +28,6 @@ bundle exec jekyll serve
 Delete Directory
 
 ```powershell
-rmdir /s phykn.github.io
+rmdir /s /q phykn.github.io
 ```
 

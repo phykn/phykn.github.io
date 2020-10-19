@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Light South"
+title                    : "빛남 연구소"
 title_separator          : "-"
-subtitle                 : "Study Room"
+subtitle                 : # "Study Room"
 name                     :  
 description              : 
 url                      : "https://phykn.github.io/"
