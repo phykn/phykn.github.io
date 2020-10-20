@@ -64,7 +64,7 @@ $$
 
 ## 5. 결과
 총 60,000 개 훈련 데이터로 학습시키며 오차를 계산했습니다. 데이터가 인공신경망에 입력될 수록 오차가 점점 작아져 0 부근으로 몰리는 것을 확인 할 수 있습니다. 10,000 개의 테스트 데이터로 검증한 모델의 정확도는 88.57 % 입니다.
-<center><img src="/assets/images/education/graph.png"></center>
+<center><img src="/assets/images/education/graph_numpy.png"></center>
 <center style="font-size:15px">학습 오차</center><br>
 
 딥러닝 라이브러리는 복잡한 코드 없이도 경사하강법을 자동으로 적용해 줍니다. 다음 시간에는 Tensorflow를 사용해 모델을 만들고 학습해 보겠습니다.
