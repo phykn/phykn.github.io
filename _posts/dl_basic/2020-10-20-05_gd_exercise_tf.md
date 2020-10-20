@@ -30,4 +30,3 @@ model.compile(loss='mse', optimizer='sgd')
 
 <center><img src="/assets/images/education/graph_tf.png"></center>
 <center style="font-size:15px">학습 오차</center><br>
-
