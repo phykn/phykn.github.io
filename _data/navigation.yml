@@ -9,8 +9,8 @@ sidebar:
   - title: Data Science
     children:
       - title: "Education"
-        url: /categories/#Education
+        url: /categories/#education
   - title: etc
     children:
       - title: "Code"
-        url: /categories/#Code
+        url: /categories/#code
