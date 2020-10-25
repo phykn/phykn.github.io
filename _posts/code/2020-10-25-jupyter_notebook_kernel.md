@@ -4,18 +4,18 @@ date: 2020-10-25
 categories: [Code]
 search: true
 ---
+Jupyter Notebook 는 기본 (Base) 환경 외 다른 아나콘다의 가상환경을 잡아주지 않는다. 따라서 아래 그림과 같이 다른 가상환경 (Kernel) 에 접근할 수 없다.
+<center><img src="/assets/images/code/2020-10-25-jupyter_notebook_kernel_1.png"></center>
 
-### 시작 폴더 변경하기
-Jupyter Notebook 시작 위치는 config 파일에서 지정할 수 있다.
+### nb_conda 설치
+다른 가상환경에 접근하기 위해서는 base 환경과 접근 할 가상환경에 nb_conda를 설치한다.
 
-##### 1. config 파일 생성
-콘솔 창에서 generate-config 명령어로 jupyter_notebook_config.py 파일을 생성한다.
 ```powershell
-(base) C:\> jupyter notebook --generate-config
+conda install -c anaconda nb_conda
 ```
-##### 2. 시작 위치 설정
-jupyter_notebook_config.py 파일에 다음 줄을 추가해 준다. 여기서는 D:\ 로 설정
-```python
-c.NotebookApp.notebook_dir = 'D:\\'
-```
-윈도우의 경우 `\` 대신 `\\`를 입력
+
+참고: <a href="https://anaconda.org/anaconda/nb_conda">https://anaconda.org/anaconda/nb_conda</a>
+
+`nb_conda` 설치 후 아래 그림과 같이 Jupyter 내에서 가상환경 목록을 확인 할 수 있다.
+
+<center><img src="/assets/images/code/2020-10-25-jupyter_notebook_kernel_2.png"></center>

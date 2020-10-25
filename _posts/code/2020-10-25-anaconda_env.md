@@ -4,8 +4,6 @@ date: 2020-10-25
 categories: [Code]
 search: true
 ---
-
-### Anaconda Env
 Anaconda Env는 아나콘다 내 가상환경으로 독립적인 환경을 만들어 패키지를 유용하게 관리할 수 있다.
 
 ##### 1. Env 생성
