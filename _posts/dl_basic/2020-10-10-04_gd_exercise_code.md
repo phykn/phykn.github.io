@@ -5,7 +5,7 @@ categories: [Education]
 search: true
 ---
 ## 1. 개요
-앞서 배운 경사하강법을 Python 으로 구현해 보겠습니다. 다음 코드는 [딥러닝기초#3 경사하강법 연습 (이론)](..\03_gd_exercise_theory) 의 인공신경망을 작성한 것 입니다. 코드를 통해 경사하강법이 어떻게 적용되는지 자세히 살펴보겠습니다. <a href="https://github.com/phykn/example_code/blob/main/dl_basic/mnist_gd.ipynb">[전체 코드 바로가기]</a>
+앞서 배운 경사하강법을 코드로 실습해 보겠습니다. 코드는 [딥러닝기초#3 경사하강법 연습 (이론)](..\03_gd_exercise_theory) 를 구현한 것으로, 해당 페이지를 먼저 보는 것이 좋습니다. <a href="https://github.com/phykn/example_code/blob/main/dl_basic/mnist_gd.ipynb">[전체 코드 바로가기]</a>
 
 ## 2. 모델 초기화
 ```python

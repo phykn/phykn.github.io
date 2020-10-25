@@ -4,8 +4,8 @@ date: 2020-10-10 00:00
 categories: [Education]
 search: true
 ---
-## 1. 데이터
-간단한 모델로 경사하강법을 배워보겠습니다. 데이터로 MNIST (Modified National Institute of Standards and Technology database) 를 사용합니다. MNIST는 손으로 쓴 숫자들로 이루어진 데이터 세트 입니다. 손으로 쓴 숫자를 컴퓨터가 인식하게 하는 것이 목적입니다.
+## 1. 개요
+이번 시간에는 간단한 모델로 경사하강법 적용 방법을 이론적으로 알아보겠습니다. 데이터로는 MNIST (Modified National Institute of Standards and Technology database) 를 사용합니다. MNIST는 손으로 쓴 숫자들로 이루어진 데이터 세트 입니다. 손으로 쓴 숫자를 컴퓨터가 인식하게 하는 것이 목적입니다.
 
 <center><img src="https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png" width="40%"></center>
 <center style="font-size:15px">MNIST sample image (wikipedia.org)</center><br>

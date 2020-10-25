@@ -5,7 +5,7 @@ categories: [Education]
 search: true
 ---
 ## 1. 개요
-텐서플로우 (Tensorflow) 는 딥러닝 라이브러리로 자동으로 미분 계산을 처리합니다. 따라서 짧은 코드로도 딥러닝 학습이 가능합니다. 이번 시간에는 [딥러닝기초#4 경사하강법 연습 (코드)](..\04_gd_exercise_code) 와 같은 모델을 텐서플로우로 구현해보면서 어떤 차이점이 있는지 살펴보겠습니다. <a href="https://github.com/phykn/example_code/blob/main/dl_basic/mnist_gd_tf.ipynb">[전체 코드 바로가기]</a>
+이번 시간에는 텐서플로우 (Tensorflow) 로 [딥러닝기초#4 경사하강법 연습 (코드)](..\04_gd_exercise_code) 와 같은 모델을 만들어 봅니다.<a href="https://github.com/phykn/example_code/blob/main/dl_basic/mnist_gd_tf.ipynb">[전체 코드 바로가기]</a>
 
 ## 2. 모델 만들기
 ```python
@@ -15,7 +15,7 @@ def create_dnn_model():
     model = tf.keras.models.Model(inputs=inputs, outputs=x)    
     return model
 ```
-`create_dnn_model` 은 모델을 만드는 함수입니다. 모델은 `Input` 을 통해 길이 784 의 데이터를 입력받습니다. `Dense` 레이어는 인공신경망을 의미합니다. `Dense` 의 인자로 출력 길이 (10) 와 활성함수 `sigmoid` 를 지정했습니다. 
+`create_dnn_model` 로 모델을 생성하는 함수를 만들었습니다. 모델은 `Input` 을 통해 길이 784 의 데이터를 입력받습니다. `Dense` 레이어는 인공신경망을 의미합니다. `Dense` 의 인자로 출력 길이 (10) 와 활성함수 `sigmoid` 를 지정했습니다. 
 
 ```python
 model.compile(loss='mse', optimizer='sgd')
